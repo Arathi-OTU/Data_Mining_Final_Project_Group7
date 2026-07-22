@@ -2,7 +2,7 @@
 
 ## 📌 Project Overview
 
-This project performs **Sentiment Analysis** on the **Amazon Cell Phones and Accessories Reviews** dataset using Natural Language Processing (NLP) and Machine Learning techniques. The objective is to classify customer reviews as **Positive** or **Negative** based on the review text.
+This project performs **Sentiment Analysis** on the **Amazon Cell Phones and Accessories Reviews** dataset using Natural Language Processing (NLP) and Machine Learning techniques. The objective is to classify customer reviews as **Positive** or **Neutral** or **Negative** based on the review text.
 
 The project includes data exploration, text preprocessing, feature engineering using TF-IDF, and sentiment classification using multiple machine learning algorithms.
 
@@ -22,7 +22,7 @@ The project includes data exploration, text preprocessing, feature engineering u
 
 ## 📂 Dataset
 
-**Dataset:** Amazon Cell Phones and Accessories Reviews
+**Dataset:** Amazon Cell Phones and Accessories Reviews(https://www.kaggle.com/datasets/abdallahwagih/amazon-reviews/data)
 
 The dataset contains customer reviews with features such as:
 
@@ -93,9 +93,8 @@ Example:
 | Rating | Sentiment |
 |---------|-----------|
 | 4–5 | Positive |
+| 3   | Neutral  |
 | 1–2 | Negative |
-
-*(Neutral ratings are handled according to the preprocessing strategy used in the notebook.)*
 
 ---
 
@@ -146,6 +145,7 @@ The models are evaluated using standard classification metrics such as:
 The notebook demonstrates how to classify unseen customer reviews into:
 
 - Positive
+- Neutral
 - Negative
 
 using the trained machine learning model.
@@ -160,7 +160,7 @@ Data-Mining-Final-Project/
 ├── Data_Mining_Final_Project.ipynb
 ├── Cell_Phones_and_Accessories_5.json
 ├── README.md
-└── requirements.txt (optional)
+
 ```
 
 ---
@@ -218,7 +218,3 @@ Sentiment Prediction
 - Model Evaluation
 
 ---
-
-## 📄 License
-
-This project is intended for educational and academic purposes.
